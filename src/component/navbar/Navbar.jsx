@@ -18,7 +18,7 @@ const  Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`text-green-900 font-medium  cursor-pointer text-[16px] ${
+            className={`text-white font-medium  cursor-pointer text-[16px] ${
               active === nav.title ? "text-green-500" : "text-red"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-5"}`}
             onClick={() => setActive(nav.title)}
@@ -32,22 +32,22 @@ const  Navbar = () => {
         <img
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[28px] h-[28px] object-contain mr-1"
+          className="w-[28px] h-[28px] object-contain mr-1 cursor-pointer"
           onClick={() => setToggle(!toggle)}
         />
 
         <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } p-6 toggle_bar absolute top-5 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6 toggle_bar  mt-9 absolute top-5 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
                 className={` font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-green-500" : "text-dimWhite"
-                } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
+                  active === nav.title ? "text-green-500" : "text-white"
+                } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"} mt-2`}
                 onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>

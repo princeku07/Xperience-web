@@ -4,10 +4,12 @@ import { CSSProperties } from 'react';
 import { RiseLoader } from 'react-spinners';
 import { Canvas } from '@react-three/fiber'
 import { Html, OrbitControls, useGLTF } from '@react-three/drei'
+import { angleToRadians } from '../model/angle';
 import styles,{layout} from '../../style';
-
+import Typewriter from "typewriter-effect";
 
 function Model({ ...props }) {
+ 
   const group = useRef()
   const { nodes, materials } = useGLTF('/shoe.gltf')
   return (
@@ -47,7 +49,7 @@ export default function Three(props) {
 
       setLoading(false)
 
-    }, 1000)
+    }, 2800)
   }, []
   )
 
@@ -58,7 +60,7 @@ export default function Three(props) {
 
 
 
-      <div className='flex flex-row justify-between  w-full'>
+      <div className='flex flex-row justify-between  w-full md:ml-3  mr-3'>
 
 
         {/* <h1 className='flex-1 ml-4 font-bold 
@@ -69,14 +71,22 @@ export default function Three(props) {
           Experience
 
         </h1> */}
-        <h2 className={`${styles.heading2} ml-4 text-green-900 mt-1 text-l 
-          md:text-green-900 md:text-[49px] md:font-extrabold md:ml-20 md:mt-7`} >We build, <br className='sm:block hidden' /> Experience    </h2>
+        <h2 className={`${styles.heading2} ml-4 text-white mt-1 text-l 
+          md:text-white md:text-[49px] md:font-extrabold md:ml-20 md:mt-7`} >We build, <br className='sm:block hidden'/> <Typewriter options={{
+            autoStart:true,
+            loop:true,
+            delay: 200,
+            strings: [
+              "Experience"
+            ],
+          }}
+          />  </h2>
 
       </div>
       <div className="product-canvas  ">
         {
           loading ?
-            <RiseLoader color={' #104a02  '}  loading={loading} size={8} />
+            <RiseLoader className='ml-14 mt-14' color={' #ffffff  '}  loading={loading} size={8} />
             :
 
             <Canvas camera={{ position: [0, 0, 5], fov: 80 }} >
@@ -101,11 +111,11 @@ export default function Three(props) {
                 />
 
 
+                <group>
+                  <mesh rotation={[ 0, -(angleToRadians(20)),0]}>
                 <Model customColors={{ mesh: mesh, stripes: stripes, soul: soul, laces: laces }}
                 />
-
-                <group>
-                  <mesh>
+>
 
                   </mesh>
                 </group>
@@ -122,7 +132,7 @@ export default function Three(props) {
       </div>
       <div className='color_picker ' >
         <div className='text-center color_choose'>
-          <p className=' text-xs text-primary font-bold 
+          <p className=' text-xs text-slate-300 font-bold 
             md:text-sm '>
             Paint your own
           </p>

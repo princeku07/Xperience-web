@@ -5,12 +5,9 @@ import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
-
-
-
-
-
-
+import location from "./pin.png";
+import VRGlasses from "./vr-glasses.png";
+import RLmodes from "./role-model.png";
 import close from "./close.svg";
 import google from "./google.svg";
 import apple from "./apple.svg";
@@ -23,6 +20,9 @@ import linkedin from "./linkedin.svg";
 
 
 export {
+  location,
+  VRGlasses,
+  RLmodes,
   airbnb,
   bill,
   binance,
@@ -30,8 +30,6 @@ export {
   coinbase,
   dropbox,
   logo,
- 
- 
 
   google,
   apple,

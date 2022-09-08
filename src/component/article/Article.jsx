@@ -5,7 +5,7 @@ import Button from '../button';
 
 const Article = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} m-1 sm:flex-row flex-col bg-green-800 rounded-[20px] box-shadow`} >
+    <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} m-1 sm:flex-row flex-col explore-1 rounded-[20px] box-shadow`} >
       <div>
         <h2 className={styles.heading2} >
           Explore

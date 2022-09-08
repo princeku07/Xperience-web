@@ -11,25 +11,25 @@ body,
   
 
 
-  background:-moz-linear-gradient(0deg, rgba(0, 52, 3, 1) 0%, rgba(129, 241, 125, 1) 100%); 
-
-  /* safari 5.1+,chrome 10+ */
-  background:-webkit-linear-gradient(0deg, rgba(0, 52, 3, 1) 0%, rgba(129, 241, 125, 1) 100%);
-
-  /* opera 11.10+ */
-  background:-o-linear-gradient(0deg, rgba(0, 52, 3, 1) 0%, rgba(129, 241, 125, 1) 100%);
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003403', endColorstr='#81F17D', GradientType=1 );
-
-  /* ie 10+ */
-  background:-ms-linear-gradient(0deg, rgba(0, 52, 3, 1) 0%, rgba(129, 241, 125, 1) 100%);
-
-  /* global 94%+ browsers support */
-  background:linear-gradient(0deg, rgba(0, 52, 3, 1) 0%, rgba(129, 241, 125, 1) 100%);
-
-   background-repeat: no-repeat;
    
+    
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(ellipse at 0% 0%, rgba(1, 1, 29, 1) 0%, rgba(12, 12, 97, 1) 39%, rgba(87, 0, 120, 1) 55%, rgba(10, 1, 55, 1) 98%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(ellipse at 0% 0%, rgba(1, 1, 29, 1) 0%, rgba(12, 12, 97, 1) 39%, rgba(87, 0, 120, 1) 55%, rgba(10, 1, 55, 1) 98%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(ellipse at 0% 0%, rgba(1, 1, 29, 1) 0%, rgba(12, 12, 97, 1) 39%, rgba(87, 0, 120, 1) 55%, rgba(10, 1, 55, 1) 98%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(ellipse at 0% 0%, rgba(1, 1, 29, 1) 0%, rgba(12, 12, 97, 1) 39%, rgba(87, 0, 120, 1) 55%, rgba(10, 1, 55, 1) 98%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(ellipse at 0% 0%, rgba(1, 1, 29, 1) 0%, rgba(12, 12, 97, 1) 39%, rgba(87, 0, 120, 1) 55%, rgba(10, 1, 55, 1) 98%);
+
+
 
 }
 @tailwind base;

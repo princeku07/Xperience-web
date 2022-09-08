@@ -60,7 +60,18 @@ export default function Model2(props) {
 
 
 
-      <div className="product-canvas2 md:ml-14 ">
+      <div className="product-canvas2 
+      rounded-r-[500px] 
+      rounded-t-[500px]
+      
+      rounded-l-[10px] 
+      rounded-b-[10px] 
+ 
+      md:rounded-t-[50px] 
+      md:rounded-r-[500px] 
+      md:rounded-l-[10px]
+      md:rounded-b-[10px] 
+      md:ml-14 ">
 
 
         <Canvas camera={{ position: [0, 0, 5], fov: 100 }} shadows >

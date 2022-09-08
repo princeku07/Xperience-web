@@ -4,7 +4,7 @@ export {default as Brand} from './brand/Brand';
 export {default as CTA} from './cta/CTA';
 export {default as Feature} from './feature/Feature';
 export {default as Navbar} from './navbar/Navbar';
-import {  facebook, instagram, linkedin, airbnb, binance, coinbase, dropbox  } from "../assets";
+import { VRGlasses,location,RLmodes, facebook, instagram, linkedin, airbnb, binance, coinbase, dropbox  } from "../assets";
 
 export const navLinks = [
   {
@@ -30,21 +30,21 @@ export const features = [
   
   {
     id: "feature-1",
-    icon: facebook,
+    icon: location,
     title: "Location Based",
     content:
       "You can place your creations in real word loactions.",
   },
   {
     id: "feature-2",
-    icon: linkedin,
+    icon: VRGlasses,
     title: "Virtual Training",
     content:
       " Use it to train Virtually using common platform and integrated 3D models.",
   },
   {
     id: "feature-3",
-    icon: instagram,
+    icon: RLmodes,
     title: "NFT's",
     content:
       "Save your creations and NFT's on secure blockchain network.",

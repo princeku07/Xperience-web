@@ -11,7 +11,7 @@ import { Feature, CTA, Brand, Article } from './component';
 function App() {
   
   return (
-    <><div className='body_color '>
+    <><div className='body_color md:ml-[25px] md:mr-[25px] '>
       <Navbar />
       
           <Three />
