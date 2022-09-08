@@ -1,0 +1,209 @@
+.banner {
+  margin-left: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  padding: 0rem;
+}
+
+
+
+
+
+.product-canvas {
+  width: 95vw;
+  height: 48vh;
+  background: transparent;
+  /* box-shadow:  10px 15px 15px 6px #3891b4; */
+  border-radius: 0px;
+  margin-bottom: 20px
+}
+
+
+
+
+.colors {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+  background: rgba(255, 255, 255, 0.08);
+  justify-content: center;
+  font-size: 15px;
+  padding: 0rem;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+
+  /* ff 3.6+ */
+
+
+  /* ff 3.6+ */
+
+  /* ff 3.6+ */
+
+
+}
+
+
+
+
+.colors div {
+  padding: 8px;
+}
+
+.explore {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(88deg, rgba(229, 254, 0, 0.5) 0%, rgba(0, 57, 0, 0.5) 99%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(88deg, rgba(229, 254, 0, 0.5) 0%, rgba(0, 57, 0, 0.5) 99%);
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(88deg, rgba(229, 254, 0, 0.5) 0%, rgba(0, 57, 0, 0.5) 99%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003900', endColorstr='#E5FE00', GradientType=0);
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(88deg, rgba(229, 254, 0, 0.5) 0%, rgba(0, 57, 0, 0.5) 99%);
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(88deg, rgba(229, 254, 0, 0.5) 0%, rgba(0, 57, 0, 0.5) 99%);
+
+  backdrop-filter: blur(50px);
+  margin-left: 2.5rem;
+  margin-top: 9rem;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------strapes-------------------- */
+#stripes {
+  background-color: transparent;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;;
+  
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+#stripes::-webkit-color-swatch {
+  border-radius: 50%;
+  border: 0px solid #043300;
+}
+
+#stripes::-moz-color-swatch {
+  border-radius: 50%;
+  border: 0px solid #000000;
+  
+}
+
+/* -------------------------------laces-------------------- */
+
+#lace {
+  background-color: transparent;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;;
+  
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#lace::-webkit-color-swatch {
+  border-radius: 50%;
+  border: 0px solid #043300;
+}
+
+#lace::-moz-color-swatch {
+  border-radius: 50%;
+  border: 0px solid #000000;
+}
+
+/* -------------------------------soul-------------------- */
+
+#soul {
+  background-color: transparent;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;;
+  
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#soul::-webkit-color-swatch {
+  border-radius: 50%;
+  border: 0px solid #043300;
+}
+
+#soul::-moz-color-swatch {
+  border-radius: 50%;
+  border: 0px solid #000000;
+}
+
+
+/* -------------------------------Mesh-------------------- */
+
+#mesh {
+  background-color: transparent;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;;
+  
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#mesh::-webkit-color-swatch {
+  border-radius: 100%;
+  border: 0px solid #043300;
+}
+
+#mesh::-moz-color-swatch {
+  border-radius: 100%;
+  border: 0px solid #000000;
+}
+
+/* ========================================================= */
+#inners {
+  background-color: transparent;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+
+
+}
+
+#inners::-webkit-color-swatch {
+  border-radius: 50%;
+  border: 7px solid #000000;
+}
+
+#inners::-moz-color-swatch {
+  border-radius: 50%;
+  border: 0px solid #000000;
+}

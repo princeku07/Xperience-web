@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+html,
+body,
+#root {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-family: "Jost";
+  
+
+
+  background:-moz-linear-gradient(0deg, rgba(0, 52, 3, 1) 0%, rgba(129, 241, 125, 1) 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(0deg, rgba(0, 52, 3, 1) 0%, rgba(129, 241, 125, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(0deg, rgba(0, 52, 3, 1) 0%, rgba(129, 241, 125, 1) 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003403', endColorstr='#81F17D', GradientType=1 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(0deg, rgba(0, 52, 3, 1) 0%, rgba(129, 241, 125, 1) 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(0deg, rgba(0, 52, 3, 1) 0%, rgba(129, 241, 125, 1) 100%);
+
+   background-repeat: no-repeat;
+   
+
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

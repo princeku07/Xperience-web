@@ -1,0 +1,33 @@
+
+/* .nav_bar_div{
+    background-color: black;
+    margin: 5px;
+    border-radius: 10px;
+} */
+.nav_bar{
+    background: rgba(116, 114, 114, 0.08);
+    backdrop-filter: blur(50px);
+    
+}
+
+
+.toggle_bar{
+    
+   
+  
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 45% 0%, rgba(255, 255, 0, 1) 17%, rgba(255, 255, 255, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 45% 0%, rgba(255, 255, 0, 1) 17%, rgba(255, 255, 255, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 45% 0%, rgba(255, 255, 0, 1) 17%, rgba(255, 255, 255, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 45% 0%, rgba(255, 255, 0, 1) 17%, rgba(255, 255, 255, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 45% 0%, rgba(255, 255, 0, 1) 17%, rgba(255, 255, 255, 1) 100%);
+
+}
