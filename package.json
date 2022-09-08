@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "vite preview",
-    "vite": " vite preview"
+    "start": "vite preview"
+    
   },
   "dependencies": {
     "@react-three/drei": "^9.28.3",
