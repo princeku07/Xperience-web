@@ -2,7 +2,7 @@ import React from 'react';
 import './cta.css'
 import { features } from '../index';
 import styles,{layout} from '../../style';
-import button from '../button';
+import button, { Button2 } from '../button';
 import { Component } from 'react';
 import Button from '../button';
 

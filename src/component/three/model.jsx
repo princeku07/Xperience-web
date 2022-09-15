@@ -8,6 +8,7 @@ import { angleToRadians } from '../model/angle';
 import styles,{layout} from '../../style';
 import Typewriter from "typewriter-effect";
 
+
 function Model({ ...props }) {
  
   const group = useRef()

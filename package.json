@@ -10,6 +10,7 @@
     "start": "vite preview"
   },
   "dependencies": {
+    "@google/model-viewer": "^2.0.0",
     "@react-three/drei": "^9.28.3",
     "@react-three/fiber": "^8.7.2",
     "autoprefixer": "^10.4.8",

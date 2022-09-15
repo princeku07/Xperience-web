@@ -14,6 +14,7 @@ function App() {
     <><div className='body_color md:ml-[25px] md:mr-[25px] '>
       <Navbar />
       
+      
           <Three />
       
 
@@ -23,8 +24,9 @@ function App() {
 
         
         <CTA />
-        <Brand />
         <Model2/>
+        <Brand />
+        
         <Article />
 
         <Feature />
