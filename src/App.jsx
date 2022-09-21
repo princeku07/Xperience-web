@@ -1,8 +1,7 @@
 import './App.css';
-import { Navbar } from './component'
-import Three from './component/three/model';
-import Model2 from './component/model/Model2';
-import { Feature, CTA, Brand, Article } from './component';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import { Home } from './component'
+import {About,Contact,Blog,Projects} from './pages/index';
 
 
 
@@ -11,27 +10,18 @@ import { Feature, CTA, Brand, Article } from './component';
 function App() {
   
   return (
-    <><div className='body_color md:ml-[25px] md:mr-[25px] '>
-      <Navbar />
-      
-      
-          <Three />
-      
+    <>
+    
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path = "home" element={<Home/>}/>
+      <Route path = "contact" element={<Contact/>}/>
+      <Route path = "about" element={<About/>}/>
+      <Route path = "blog" element={<Blog/>}/>
+      <Route path = "projects" element={<Projects/>}/>
 
-    </div>
-      {/* ==========================section-2-============================================== */}
-      <div className='ml-1 mr-1'>
-
-        
-        <CTA />
-        <Model2/>
-        <Brand />
-        
-        <Article />
-
-        <Feature />
-        
-      </div>
+    </Routes>
+    
     </>
   )
 }

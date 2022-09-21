@@ -1,6 +1,6 @@
 export {default as Article} from './article/Article';
 export {default as Brand} from './brand/Brand';
-
+export {default as Home} from './home/home';
 export {default as CTA} from './cta/CTA';
 export {default as Feature} from './feature/Feature';
 export {default as Navbar} from './navbar/Navbar';
@@ -12,17 +12,21 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
+    id: "blog",
     title: "Features",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "projects",
+    title: "Projects",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "contact",
+    title: "Contact",
   },
+  {
+    id: "about",
+    title: "About"
+  }
 ];
 
 export const features = [

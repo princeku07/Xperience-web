@@ -116,7 +116,7 @@ export default function Three(props) {
                   <mesh rotation={[ 0, -(angleToRadians(20)),0]}>
                 <Model customColors={{ mesh: mesh, stripes: stripes, soul: soul, laces: laces }}
                 />
->
+
 
                   </mesh>
                 </group>
