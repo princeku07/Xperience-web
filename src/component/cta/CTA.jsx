@@ -2,9 +2,8 @@ import React from 'react';
 import './cta.css'
 import { features } from '../index';
 import styles,{layout} from '../../style';
-import button, { Button2 } from '../button';
-import { Component } from 'react';
 import Button from '../button';
+
 
 const FeatureCard = ({icon ,title,content,index} )=> (
   <div className={`flex flex-row p-2 m-1 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -25,6 +24,8 @@ const FeatureCard = ({icon ,title,content,index} )=> (
 
 const CTA = () => {
   return (
+    <>
+   
     <section id='feature' className={layout.section} >
 
       <div className={layout.sectionInfo} >
@@ -33,13 +34,9 @@ const CTA = () => {
         <Button styles="mt-10 bg-blue"/>
 
       </div>
-      <div className={`${layout.sectionImg} flex-col feature-bg `} >
-        {features.map((feature,index)=>
-        <FeatureCard key={feature.id} {...feature} index={index}/>
-        )}
-      </div>
+      
     </section>
-   
+    </>
   )
 }
 

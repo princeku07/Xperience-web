@@ -1,7 +1,7 @@
 import React from 'react';
 import './article.css';
 import styles from '../../style';
-import Button from '../button';
+
 
 const Article = () => {
   return (
@@ -15,7 +15,9 @@ const Article = () => {
         </p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-        <Button></Button>
+      <button type="button" className={`py-2 px-2 font-poppins font-medium text-[18px] text-white  bg-gradient-to-tl from-green-300 via-blue-500 to-purple-600 shadow-xl rounded-[10px] outline-none ${styles}`}>
+    Get Started
+  </button>
       </div>
     </section>
   )

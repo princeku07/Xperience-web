@@ -131,6 +131,7 @@ export default function Three(props) {
             </Canvas>
         }
       </div>
+
       <div className='color_picker ' >
         <div className='text-center color_choose'>
           <p className=' text-xs text-slate-300 font-bold 

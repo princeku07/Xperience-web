@@ -4,6 +4,8 @@ export {default as Home} from './home/home';
 export {default as CTA} from './cta/CTA';
 export {default as Feature} from './feature/Feature';
 export {default as Navbar} from './navbar/Navbar';
+export {default as Collection} from './collections/Collection'
+
 import { VRGlasses,location,RLmodes, facebook, instagram, linkedin, airbnb, binance, coinbase, dropbox  } from "../assets";
 
 export const navLinks = [
@@ -15,10 +17,7 @@ export const navLinks = [
     id: "blog",
     title: "Features",
   },
-  {
-    id: "projects",
-    title: "Projects",
-  },
+  
   {
     id: "contact",
     title: "Contact",

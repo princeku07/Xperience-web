@@ -1,7 +1,7 @@
 import { useState } from "react";
 import './navbar.css'
 import {Link} from 'react-router-dom';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/xperience_logo.png';
 import menu from '../../assets/menu.png';
 import close from '../../assets/close.png';
 import { navLinks } from "../index.js";
@@ -19,7 +19,7 @@ const Navbar = () => {
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className={`text-white font-medium  cursor-pointer text-[25px] ${active === nav.title ? "text-green-500" : "text-red"
+              className={`text-white font-medium  cursor-pointer text-[20px] ${active === nav.title ? "text-green-500" : "text-red"
                 } ${index === navLinks.length - 1 ? "mr-0" : "mr-5"}`}
               onClick={() => setActive(nav.title)}
             >

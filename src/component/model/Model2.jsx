@@ -34,21 +34,7 @@ export default function Model2(props) {
       title: "astronaut1",
       text: "",
     },
-    {
-      model: "https://modelviewer.dev/shared-assets/models/Astronaut.usdz",
-      title: "astronaut2",
-      text: "",
-    },
-    {
-      model: "https://modelviewer.dev/shared-assets/models/Astronaut.usdz",
-      title: "astronaut3",
-      text: "",
-    },
-    {
-      model: "https://modelviewer.dev/shared-assets/models/Astronaut.usdz",
-      title: "astronaut4",
-      text: "",
-    },
+    
   ];
   const renderCard = (card, index) => {
     return (
@@ -60,6 +46,7 @@ export default function Model2(props) {
             ios-src=""
             alt="A 3D model of an astronaut"
             ar
+            vr
             auto-rotate
             camera-controls
           ></model-viewer>
@@ -73,7 +60,7 @@ export default function Model2(props) {
       <div className="m-5 p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {cardInfo.map(renderCard)}
       </div>
-      <model-viewer camera-controls touch-action="pan-y" autoplay ar ar-modes="webxr scene-viewer" shadow-intensity="1" src="../../shared-assets/models/RobotExpressive.glb" alt="An animated 3D model of a robot"></model-viewer>
+      
     </>
   );
 }
