@@ -44,7 +44,7 @@ const Feature = () => {
       </div>
 
 <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#fefeff]">
-  <p className=" font-medium text-[18px] leading-[27px] text-slate-white ml-1">
+  <p className=" font-medium text-[18px] leading-[27px] text-white ml-1">
 
   Copyright Ⓒ 2022 Xperience. All Rights Reserved.
       </p>

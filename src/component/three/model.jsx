@@ -50,7 +50,7 @@ export default function Three(props) {
 
       setLoading(false)
 
-    }, 2800)
+    }, 3000)
   }, []
   )
 
