@@ -31,8 +31,8 @@ export default function Model2(props) {
   const cardInfo = [
     {
       model: "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
-      title: "astronaut1",
-      text: "",
+      title: "Astronaut",
+      text: "AR Preview",
     },
     
   ];

@@ -28,9 +28,9 @@ const CTA = () => {
    
     <section id='feature' className={layout.section} >
 
-      <div className={layout.sectionInfo} >
+      <div className={`${layout.sectionInfo} m-9`} >
         <h2 className={styles.heading2} >Integrating <br className='sm:block hidden' /> Digital Objects   </h2>
-        <p className={`${styles.paragraph} max-w-[470px]`}> We integrate digital objects into real world as well as build fully imersive digital experience through VR headset, As of now we can use our smartphone for Agumented experiences as today's smartphones are much powerful. Use our app to create and place digital objects into real world locations and save it as landmark. You can share it with your friends and also make discoverable for everyone. </p>
+        <p className={`${styles.paragraph} max-w-[500px]`}> We integrate digital objects into real world as well as build fully imersive digital experience through VR headset, As of now we can use our smartphone for Agumented experiences as today's smartphones are much powerful. Use our app to create and place digital objects into real world locations and save it as landmark. You can share it with your friends and also make discoverable for everyone. </p>
         <Button styles="mt-10 bg-blue"/>
 
       </div>

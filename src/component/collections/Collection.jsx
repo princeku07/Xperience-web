@@ -10,7 +10,8 @@ const Collection = () => {
  
   return (
     <div className="grid  place-items-center m-9">
-      <h1 className={styles.heading2}>Real life Usecases</h1>
+      <h1 className={styles.heading2}>Experience Places with AR</h1>
+      <p></p>
     </div>
   );
 };
