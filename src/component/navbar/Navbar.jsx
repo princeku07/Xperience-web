@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className=" nav_bar_div items-center py-1 pt-1 px-1">
-      <nav className='nav_bar w-full flex py-1 justify-between items-center  rounded-full'>
+      <nav className='nav_bar w-full flex py-3 justify-between items-center  rounded-full'>
         <Link to='/home'><img href="home" src={logo} alt="logo" className='ml-5 w-[55px]  md:w-50 cursor-pointer' /></Link>
 
         <ul className="  list-none sm:flex hidden justify-end items-center flex-1 mr-5">

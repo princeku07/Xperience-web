@@ -5,6 +5,7 @@ import Model2 from '../model/Model2';
 import Navbar from '../navbar/Navbar';
 
 import {  CTA, Brand, Article,Collection } from '../index';
+import Building from '../building/building';
 
 
 
@@ -23,7 +24,7 @@ function Home() {
       <div className='ml-1 mr-1'>
         <Collection/>
       <CTA />
-      <Model2/>
+      <Building/>
         <Brand /> 
         <Article />
         
