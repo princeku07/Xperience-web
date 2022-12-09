@@ -1,13 +1,16 @@
 import React, { Suspense,useRef } from "react";
 import { ReactDOM } from "react";
-import '../building/building.css'
+import '../building/globe.css'
 import Three from "../three/model";
 import { Html, OrbitControls, useAnimations, useGLTF } from '@react-three/drei'
 import { act, useThree } from "@react-three/fiber";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { PerspectiveCamera } from "@react-three/drei";
 import { angleToRadians } from '../model/angle';
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
+import styles,{layout} from '../../style';
+import { RiseLoader } from 'react-spinners';
+import Typewriter from "typewriter-effect";
 
 
 //--------------------Building-Model-------------------------//
@@ -17,7 +20,8 @@ function Model(props) {
   const { actions } = useAnimations(animations, group)
   useEffect(() => {
      actions.globe.play();
-  })
+  });
+  
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
@@ -79,13 +83,41 @@ function Model(props) {
 
 
 export default function Building(){
+  const [loading, setLoading] = useState(false)
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
 
+      setLoading(false)
+
+    }, 3000)
+  }, []
+  )
 
     return (
-        <div className="Building">
+      <>
+      <div className='flex flex-row justify-between  w-full md:ml-3  mr-3'>
 
+<h2 className={`${styles.heading2} ml-4 text-white mt-1 text-l 
+  md:text-white md:text-[49px] md:font-extrabold md:ml-20 md:mt-7`} >We build, <br className='sm:block hidden'/> <Typewriter options={{
+    autoStart:true,
+    loop:true,
+    delay: 100,
+    strings: [
+      "Experience"
+    ],
+  }}
+  />  </h2>
+
+</div>
+        <div className="Building">
+        {
+            loading ?
+            <RiseLoader className='ml-14 mt-14' color={' #ffffff  '}  loading={loading} size={8} />
+            :
         
-<Canvas camera={{ fov: 50, zoom: 1, near: 1, far: 1000 }}>
+
+            <Canvas camera={{ fov: 50, zoom: 1, near: 1, far: 1000 }}>
         
         <Suspense fallback = {null}>
             
@@ -114,6 +146,8 @@ export default function Building(){
                  
         </Suspense>
        </Canvas>
+}
        </div>
+       </>
     )
 }

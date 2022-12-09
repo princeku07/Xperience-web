@@ -5,7 +5,7 @@ import Model2 from '../model/Model2';
 import Navbar from '../navbar/Navbar';
 
 import {  CTA, Brand, Article,Collection } from '../index';
-import Building from '../building/building';
+import Building from '../building/globe';
 
 
 
@@ -18,13 +18,13 @@ function Home() {
     <><div className='body_color md:ml-[25px] md:mr-[25px] '>
 <Navbar/>
 
-          <Three />
+<Building/>
     </div>
       {/* ==========================section-2-============================================== */}
       <div className='ml-1 mr-1'>
         <Collection/>
       <CTA />
-      <Building/>
+      
         <Brand /> 
         <Article />
         

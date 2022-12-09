@@ -1,11 +1,11 @@
 import { Navbar } from "../component";
+import Three from "../component/three/model";
 function Blog(){
     return(
         <>
         <Navbar/>
         <div > 
-        <h1 className="text-green-500">
-            this is blog  page</h1></div>
+        <Three></Three></div>
             </>
     )
 }

@@ -61,29 +61,7 @@ export default function Three(props) {
 
 
 
-      <div className='flex flex-row justify-between  w-full md:ml-3  mr-3'>
-
-
-        {/* <h1 className='flex-1 ml-4 font-bold 
-           text-green-900 mt-1 text-l 
-          md:text-green-900 md:text-2xl md:font-extrabold md:ml-20 md:mt-7'>
-          We <br />
-          Build
-          Experience
-
-        </h1> */}
-        <h2 className={`${styles.heading2} ml-4 text-white mt-1 text-l 
-          md:text-white md:text-[49px] md:font-extrabold md:ml-20 md:mt-7`} >We build, <br className='sm:block hidden'/> <Typewriter options={{
-            autoStart:true,
-            loop:true,
-            delay: 200,
-            strings: [
-              "Experience"
-            ],
-          }}
-          />  </h2>
-
-      </div>
+      
       <div className="product-canvas  ">
         {
           loading ?
